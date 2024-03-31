@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+.container{
+    height: auto;
+    width: 60%;
+    /*background-color: yellow;*/
+    margin-left: 20%;
+    margin-right: 20%;
+    position: absolute;
+    margin-top: 5%;
+    color: white;
+}
+#header{
+    color: red;
+}
+.back{
+    color: red;
+}
+h3{
+    color: white;
+    padding-left: 10px;
+}
+p{
+    font-size: 20px;
+}
+.footer{
+    margin-top: 10%;
+    height: 20vh;
+    width: 100%;
+    background-color: grey;
+    border-top: 2px solid red;
+    border-left:1px solid white;
+}
+.articles{
+    color: white;
+    padding-left: 10px;
+}
+.articles:hover{
+    color: red;
+    padding-left: 10px;
+}
+.foot{
+    height: 22vh;
+    width: 100%;
+    background-color: maroon;
+    margin-top: 15%;
+}
+.contact:hover{
+    background-color: lightgray; 
+}
+a{
+    margin-left: 10px;
+    color: white;
+}
+a:hover{
+    color: grey;
+}

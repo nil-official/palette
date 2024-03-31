@@ -1,0 +1,31 @@
+jdbc:oracle:thin:@FRIDAY:1521:orcl2
+
+create user palette identified by admin;
+grant connect, resource, unlimited tablespace to palette;
+conn palette/admin;
+
+create sequence ucid minvalue 1001 increment by 1 cache 10;
+
+create table users (
+uavatar blob,
+ucid number(4) primary key,
+uname varchar2(30),
+uemail varchar2(50),
+upassword varchar2(20),
+umcode varchar2(10),
+umobile varchar2(10),
+uaddress varchar2(60),
+upincode varchar2(6),
+ucity varchar2(20),
+ustate varchar2(20),
+pid varchar2(40),
+pdate varchar2(30),
+pamount varchar2(10),
+pnod varchar2(2),
+pnos varchar2(2)
+);
+
+create table admin (
+aid varchar2(10),
+apass varchar2(10)
+);

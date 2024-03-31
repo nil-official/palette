@@ -1,0 +1,183 @@
+body{
+    background-color:black;
+}
+#help{
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.header{
+    height: 10vh;
+    width: auto;
+    /*background-color: black;*/
+    text-align: center;
+    border-bottom: 1px solid red;
+    
+}
+#search{
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: none;   
+}
+#mid{
+    height: 40vh;
+    width: auto;
+    /*background-color: yellow;*/
+    padding-left: 10%;
+    border-bottom: 1px solid grey;
+    margin-top: 7%;
+}
+#heading{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+#signin{
+    padding: 10px;
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+}
+#join{
+    padding: 10px;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+}
+#popular{
+    font-size: 20px;
+    color: white;
+}
+#topics1{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid red;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+#topics2{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid red;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 1%;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+#topics3{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid red;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 1%;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+#topics1:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+#topics2:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+#topics3:hover{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.bottom{
+    height: 45vh;
+    /*width: auto;*/
+    /*background-color: orange;*/
+    /*position: absolute;*/
+}
+.first{
+    height: 100%;
+    width: 20%;
+    /*background-color: pink;*/
+    margin-left: 4%;
+    position: absolute;
+    text-align: left;
+}
+.first p{
+    margin-left: 2%;
+}
+.second{
+    height: 100%;
+    width: 20%;
+    /*background-color: violet;*/
+    margin-left: 18%;
+    position: absolute;
+    text-align: left;
+}
+.second p{
+    margin-left: 2%;
+}
+.third{
+    height: 100%;
+    width: 20%;
+    /*background-color: green;*/
+    margin-left: 43%;
+    position: absolute;
+    text-align: left;
+}
+.third p{
+    margin-left: 2%;
+}
+.fourth{
+    height: 100%;
+    width: 20%;
+    /*background-color: cyan;*/
+    margin-left: 67%;
+    position: absolute;
+    text-align: left;
+}
+.fourth p{
+    margin-left: 2%;
+}
+.fifth{
+    height: 100%;
+    width: 20%;
+    /*background-color: red;*/
+    margin-left: 85%;
+/*    right: 0.38%;*/
+    position: absolute;
+    text-align: left;
+}
+.fifth p{
+    margin-left: 2%;
+}
+#started{
+    font-size: 22px;
+    color: red;
+}
+#quick{
+    padding: 10px;
+    border: none;
+    margin-top: 7%;
+    font-size: 14px;
+    background-color: transparent;
+    color: white;
+    
+    
+}
+#quick:hover{
+    padding: 10px;
+    border: none;
+    margin-top: 7%;
+    font-size: 15px;
+    background-color: transparent;
+    color: red;
+}

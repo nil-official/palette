@@ -1,0 +1,18 @@
+.input-email{
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 7px 10px;
+}
+.input-email:focus {
+    outline: none;
+}
+.valid-email {
+    border: 2px solid #008000;
+    border-radius: 5px;
+}
+
+.invalid-email {
+    border: 2px solid #ff0000;
+    border-radius: 5px;
+}
+
